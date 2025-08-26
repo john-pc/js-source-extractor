@@ -1,0 +1,39 @@
+{
+  "name": "sourcemap-extractor",
+  "version": "1.0.0",
+  "description": "Extract source files from JavaScript source maps",
+  "main": "index.js",
+  "bin": {
+    "sourcemap-extractor": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sourcemap",
+    "source-map",
+    "extract",
+    "unpack",
+    "javascript",
+    "debug",
+    "webpack",
+    "bundler"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "source-map": "^0.7.3",
+    "jszip": "^3.10.1"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/sourcemap-extractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/sourcemap-extractor/issues"
+  },
+  "homepage": "https://github.com/yourusername/sourcemap-extractor#readme"
+}
